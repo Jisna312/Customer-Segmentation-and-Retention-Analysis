@@ -1,5 +1,58 @@
+# =========================
+# Python
+# =========================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
 .env
+.venv
+venv/
+
+# =========================
+# Jupyter Notebook
+# =========================
 .ipynb_checkpoints/
-data/
+
+# =========================
+# Data (IMPORTANT)
+# =========================
+data/*
+!data/raw/
+!data/processed/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS Code settings (optional)
+# =========================
+.vscode/
+
+# =========================
+# Model files (later use)
+# =========================
+*.pkl
+*.joblib
+*.h5
+
+# =========================
+# Large files
+# =========================
+*.csv
+*.parquet
